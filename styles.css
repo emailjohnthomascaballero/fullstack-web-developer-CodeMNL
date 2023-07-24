@@ -1,0 +1,12 @@
+:root {
+  --primary-100: hsl(8, 0%, 90%);
+  --primary-110: hsl(8, 0%, 80%);
+}
+
+.color-primary-100 {
+  color: var(--primary-100);
+}
+
+.color-primary-110 {
+  color: var(--primary-110);
+}
