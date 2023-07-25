@@ -1,137 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
-          extend: {
-            colors: {
-              "heathered-gray": {
-                DEFAULT: "#B7AB98",
-                50: "#FFFFFF",
-                100: "#FAF9F8",
-                200: "#E9E6E0",
-                300: "#D9D2C8",
-                400: "#C8BFB0",
-                500: "#B7AB98",
-                600: "#A09077",
-                700: "#83745C",
-                800: "#625745",
-                900: "#413A2E",
-                950: "#312B22",
-              },
-              flamingo: {
-                DEFAULT: "#EB5939",
-                50: "#FCE5E0",
-                100: "#FAD5CD",
-                200: "#F6B6A8",
-                300: "#F29783",
-                400: "#EF785E",
-                500: "#EB5939",
-                600: "#D63816",
-                700: "#A32B10",
-                800: "#701E0B",
-                900: "#3D1006",
-                950: "#240904",
-              },
-              "lunar-green": {
-                DEFAULT: "#383A38",
-                50: "#939793",
-                100: "#898D89",
-                200: "#747874",
-                300: "#606460",
-                400: "#4C4F4C",
-                500: "#383A38",
-                600: "#1C1D1C",
-                700: "#010101",
-                800: "#000000",
-                900: "#000000",
-                950: "#000000",
-              },
-            },
-          },
+          extend: {},
         },
       };
     </script>
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- slide 1 -->
-    <div class="">
-      <div
-        class="float-right mt-20 mr-14 text-heathered-gray-500 text-right flex flex-col"
-      >
-        <ul>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">WORK</a></li>
-          <li><a href="">CONTACT</a></li>
-        </ul>
-      </div>
+    <section class="bg-black py-24">
+      <div class="bg-white px-4 xl:px-6">
+        <div class="max-w-screen-xl bg-blue-500 mx-auto">
+          <h2 class="text-2xl">Lorem ipsum dolor sit amet consectetur.</h2>
 
-      <div class="float-left mt-20 ml-14">
-        <a href=""><img src="assets/logo.svg" alt="" /></a>
-      </div>
-    </div>
-
-    <div class="w-full h-screen bg-black min-h-[400px] pt-36">
-      <div class="">
-        <div class="max-w-[600px] m-auto">
-          <h2
-            class="text-[18px] text-center uppercase tracking-widest text-heathered-gray-500"
-          >
-            JOHN DEV
-          </h2>
           <div
-            class="text-[150px] text-center uppercase tracking-tight mt-4 leading-[120px] font-semibold text-heathered-gray-500"
+            class="mt-12 bg-orange-500 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-4"
           >
-            <div class="flex justify-center">
-              <div>E</div>
-              <div>a</div>
-              <div>t</div>
+            <div class="border border-black">
+              <div
+                class="flex justify-center items-center h-16 border border-black"
+              >
+                icon
+              </div>
+              <div class="mt-4">
+                <h3 class="text-center">Lorem, ipsum.</h3>
+              </div>
             </div>
-
-            <div class="flex justify-center">
-              <div>C</div>
-              <div>o</div>
-              <div>d</div>
-              <div>e</div>
+            <div class="border border-black">
+              <div
+                class="flex justify-center items-center h-16 border border-black"
+              >
+                icon
+              </div>
+              <div class="mt-4">
+                <h3 class="text-center">Lorem, ipsum.</h3>
+              </div>
             </div>
-
-            <div class="flex justify-center">
-              <div>S</div>
-              <div>l</div>
-              <div>e</div>
-              <div>e</div>
-              <div>p</div>
+            <div class="border border-black">
+              <div
+                class="flex justify-center items-center h-16 border border-black"
+              >
+                icon
+              </div>
+              <div class="mt-4">
+                <h3 class="text-center">Lorem, ipsum.</h3>
+              </div>
             </div>
-
-            <div class="flex justify-center text-flamingo-500">
-              <div>R</div>
-              <div>e</div>
-              <div>p</div>
-              <div>e</div>
-              <div>a</div>
-              <div>t</div>
+            <div class="border border-black">
+              <div
+                class="flex justify-center items-center h-16 border border-black"
+              >
+                icon
+              </div>
+              <div class="mt-4">
+                <h3 class="text-center">Lorem, ipsum.</h3>
+              </div>
+            </div>
+            <div class="border border-black">
+              <div
+                class="flex justify-center items-center h-16 border border-black"
+              >
+                icon
+              </div>
+              <div class="mt-4">
+                <h3 class="text-center">Lorem, ipsum.</h3>
+              </div>
+            </div>
+            <div class="border border-black">
+              <div
+                class="flex justify-center items-center h-16 border border-black"
+              >
+                icon
+              </div>
+              <div class="mt-4">
+                <h3 class="text-center">Lorem, ipsum.</h3>
+              </div>
             </div>
           </div>
-          <h2
-            class="text-[18px] text-center uppercase tracking-widest text-heathered-gray-500 mt-4"
-          >
-            Code MNL 2023
-          </h2>
         </div>
       </div>
-    </div>
-
-    <!-- slide 2 
-    <div class="w-full min-h-[4000px] bg-blue-500">sample</div>-->
-
-    <video id="video-background" autoplay muted poster>
-      <source src="assets/hero.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+    </section>
   </body>
 </html>
